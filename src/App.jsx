@@ -1,3 +1,5 @@
+// import Feedback from "./components/Feedback";
+import InfiniteCarousel from "./components/Feedback";
 import Hero from "./components/Hero";
 import MainNavbar from "./components/MainNavabr";
 import Partners from "./components/Partners";
@@ -13,6 +15,7 @@ const App = () => {
       <Partners />
       <Services />
       <Train />
+      <InfiniteCarousel />
     </div>
   );
 };

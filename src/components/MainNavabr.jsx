@@ -7,8 +7,8 @@ export default function App() {
     const menuItems = ['About Us', 'Pricing', 'Customers', 'Solutions']
 
     return (
-        <div className=" border-b border-[#183A40]">
-            <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-primary py-3 container">
+        <div className=" border-b border-[#183A40] py-3">
+            <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-primary container">
                 <NavbarContent>
 
                     <NavbarBrand>
