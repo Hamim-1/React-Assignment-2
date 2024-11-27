@@ -9,7 +9,9 @@ const Hero = () => {
                 <p className='text-xl font-light w-96'>Train an aiDR on your ICP and messaging matrix. Activate it on a patch. It will send personalized sequences to every target contact.</p>
                 <button className='primary-button w-fit flex justify-center items-center space-x-2 group'> <span>Sign Up for the Beta</span> <FiArrowUpRight className='size-5 border border-black group-hover:border-white' /> </button>
             </div>
-            <img src="/bg-1.png" class="absolute top-0 right-0 w-full h-full object-cover z-0" />
+            <img src="/bg-1.png" class="absolute top-0 right-0 w-full h-full object-cover z-0 hidden md:block" />
+
+            <img src="/sm-bg.png" class="absolute top-0 right-0 w-full h-full object-cover z-0 md:hidden" />
         </div>
     );
 };
