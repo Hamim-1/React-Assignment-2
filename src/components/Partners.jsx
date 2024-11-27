@@ -4,8 +4,8 @@ import React from 'react';
 const Partners = () => {
     const partners = [1, 2, 3, 4, 5];
     return (
-        <div>
-            <div className='flex flex-col items-center container py-10 space-y-5'>
+        <div className='bg-[#07292F] py-10'>
+            <div className='flex flex-col items-center container space-y-5'>
                 <p className="text-secondary text-base uppercase">our trusted partners</p>
 
                 <div className='flex flex-wrap items-center space-x-5 justify-center'>
