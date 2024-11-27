@@ -5,6 +5,7 @@ import MainNavbar from "./components/MainNavabr";
 import Partners from "./components/Partners";
 import Services from './components/Services';
 import Train from "./components/Train";
+import GetStarted from "./components/GetStarted";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Train />
       <Feedback />
       <Effort />
+      <GetStarted />
     </div>
   );
 };

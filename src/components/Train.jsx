@@ -37,14 +37,14 @@ const Train = () => {
 
                     <div className='flex flex-col sm:flex-row gap-10'>
                         <div className='flex space-x-3 text-secondary'>
-                            <div className='border-2 border-secondary rounded-full p-1'>
+                            <div className='border-2 border-secondary rounded-full p-1 h-fit'>
                                 <FaCheck />
                             </div>
                             <p className='text-xl font-medium'>Quick to scale up</p>
                         </div>
 
                         <div className='flex space-x-3 text-secondary'>
-                            <div className='border-2 border-secondary rounded-full p-1'>
+                            <div className='border-2 border-secondary rounded-full p-1 h-fit'>
                                 <FaCheck />
                             </div>
                             <p className='text-xl font-medium'>Works with all your existing tools</p>
