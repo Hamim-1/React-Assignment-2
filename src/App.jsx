@@ -6,6 +6,7 @@ import Partners from "./components/Partners";
 import Services from './components/Services';
 import Train from "./components/Train";
 import GetStarted from "./components/GetStarted";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Feedback />
       <Effort />
       <GetStarted />
+      <Footer />
     </div>
   );
 };
