@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { GoArrowLeft } from "react-icons/go";
 import { GoArrowRight } from "react-icons/go";
-const InfiniteCarousel = () => {
+const Feedback = () => {
     const items = [
         { review: "Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.", name: "John Doe", profession: 'Chief Strategy Officer @ Company' },
         { review: "Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.", name: "John Doe", profession: 'Chief Strategy Officer @ Company' },
@@ -45,7 +45,7 @@ const InfiniteCarousel = () => {
                 {items.map((_, index) => (
                     <span
                         key={index}
-                        className={`w-3 h-3 rounded-full ${index === currentIndex ? 'bg-secondary' : 'bg-[#07292F]'}`}
+                        className={`w-3 h-3 rounded-full ${index === currentIndex ? 'bg-secondary' : 'bg-[#07292F] cursor-pointer'}`}
                         onClick={() => setCurrentIndex(index)}
                     ></span>
                 ))}
@@ -62,4 +62,4 @@ const InfiniteCarousel = () => {
     );
 };
 
-export default InfiniteCarousel;
+export default Feedback;
